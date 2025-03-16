@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="google-site-verification"
+      content="up9Dvz56ouIO6_t7IwgnAS_LsY3lAYswm-OdbeHLeHE"
+    />
+    <title>Minimalist Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="Minimalist-Logo-PNG-Mid.png" alt="Minimalist Logo" />
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li class="dropdown">
+            <a href="#">Shop</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Category 1</a></li>
+              <li><a href="#">Category 2</a></li>
+              <li><a href="#">Category 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Best Sellers</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Product 1</a></li>
+              <li><a href="#">Product 2</a></li>
+              <li><a href="#">Product 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Skin & Body Care</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Baby Care</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Hair Care</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Skin Insights</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Insight 1</a></li>
+              <li><a href="#">Insight 2</a></li>
+              <li><a href="#">Insight 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Track Order</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Order 1</a></li>
+              <li><a href="#">Order 2</a></li>
+              <li><a href="#">Order 3</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="nav-icons">
+          <a href="#" aria-label="Search"
+            ><img src="search icon.png" alt="Search icon"
+          /></a>
+          <a href="#" aria-label="Account"
+            ><img src="account icon.png" alt="Account icon"
+          /></a>
+          <a href="#" aria-label="Cart"
+            ><img src="cart icon.png" alt="Cart icon"
+          /></a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="carousel">
+        <div class="carousel-slide active">
+          <div class="hero-product">
+            <div class="product-image">
+              <img
+                src="Anti Dandruff Shampoo.jpg"
+                alt="Anti Dandruff Shampoo 3.5%"
+              />
+            </div>
+            <div class="hero-content">
+              <span class="tag">New Launch</span>
+              <h1>Anti Dandruff Shampoo 3.5%</h1>
+              <p>
+                An advanced anti-dandruff shampoo with clinically proven actives
+                to eliminate flakes, soothe irritation, and restore scalp
+                balance from the first wash.
+              </p>
+              <a href="#" class="cta-button">Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="hero-product">
+            <div class="product-image">
+              <img
+                src="Hypochlorous Acid Skin Relief Spray.jpg"
+                alt="Hypochlorous Acid Skin Relief Spray"
+              />
+            </div>
+            <div class="hero-content">
+              <span class="tag">New Launch</span>
+              <h1>Hypochlorous Acid Skin Relief Spray 150 ppm</h1>
+              <p>
+                Introducing our new spray toner powered by hypochlorous acid
+                that supports the skin barrier and helps fight acne, eczema,
+                redness
+              </p>
+              <a href="#" class="cta-button">Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-btn prev" aria-label="Previous slide">
+          &#10094;
+        </button>
+        <button class="carousel-btn next" aria-label="Next slide">
+          &#10095;
+        </button>
+        <div class="carousel-dots">
+          <button class="dot active" aria-label="Go to slide 1"></button>
+          <button class="dot" aria-label="Go to slide 2"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best Sellers Section -->
+    <section class="best-sellers">
+      <div class="container">
+        <h2>Best Sellers</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="Vitamin C Serum.jpg" alt="Vitamin C Serum" />
+            <h3>Vitamin C Serum</h3>
+            <p>Brightens and evens skin tone</p>
+            <span class="price">₹599</span>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="Hyaluronic acid Serum.jpg" alt="Hyaluronic Acid Serum" />
+            <h3>Hyaluronic Acid</h3>
+            <p>Deep hydration for all skin types</p>
+            <span class="price">₹499</span>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="Retinol Cream.jpg" alt="Retinol Cream" />
+            <h3>Retinol Cream</h3>
+            <p>Anti-aging and skin renewal</p>
+            <span class="price">₹699</span>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skin Insights Section -->
+    <section class="skin-insights">
+      <div class="container">
+        <h2>Understand Your Skin Better</h2>
+        <p>
+          Get personalized skincare recommendations with our AI-powered skin
+          analysis
+        </p>
+        <a href="#" class="cta-button">Try Skin Insights</a>
+      </div>
+    </section>
+
+    <!-- Future of Personal Care Section -->
+    <section class="future-care">
+      <div class="container">
+        <h2>The future of personal care is here</h2>
+        <p class="subtitle">
+          Embrace Minimalist, where each element is chosen for its scientific
+          merit, offering you authentic, effective skincare solutions.
+        </p>
+
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10"
+                />
+              </svg>
+            </div>
+            <h3>Transparency</h3>
+            <p>Full disclosure of ingredients used & their concentration</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M9 3L15 3L15 21L9 21z" />
+                <path d="M10 12L14 12M12 10L12 14" />
+              </svg>
+            </div>
+            <h3>Efficacy</h3>
+            <p>Formulations developed in our in-house laboratories</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 8v13m0-13V6a2 2 0 112 2v3m-2-3h4" />
+                <path d="M8 12h8l-4-4-4 4z" />
+              </svg>
+            </div>
+            <h3>Affordable</h3>
+            <p>Skincare, accessible to all</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 16l4-4m0 0l-4-4m4 4H8" />
+              </svg>
+            </div>
+            <h3>Only the best</h3>
+            <p>Ingredients sourced from across the world</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+      <div class="container">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="Niacinamide Serum.jpg" alt="Niacinamide Serum" />
+            <h3>Niacinamide Serum</h3>
+            <p>Reduces blemishes and improves skin texture</p>
+            <span class="price">₹549</span>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="Salicylic Acid Serum.jpg" alt="Salicylic Acid Serum" />
+            <h3>Salicylic Acid</h3>
+            <p>Unclogs pores and prevents breakouts</p>
+            <span class="price">₹449</span>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <div class="container">
+        <h2>Join Our Newsletter</h2>
+        <p>Get exclusive offers and skincare tips delivered to your inbox</p>
+        <form>
+          <input type="email" placeholder="Enter your email address" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Trust Circle and App Download Section -->
+    <section class="info-panels">
+      <div class="container">
+        <div class="panel trust-circle">
+          <div class="panel-image">
+            <img
+              src="Minimalist Trust Circle.jpg"
+              alt="Minimalist Product Collection"
+            />
+          </div>
+          <div class="panel-content">
+            <h2>Minimalist Trust Circle</h2>
+            <p>Earn & redeem MCash on every purchase</p>
+            <button class="outline-button">Show more</button>
+          </div>
+        </div>
+
+        <div class="panel download-app">
+          <div class="panel-image">
+            <img src="Download Our App.jpg" alt="Minimalist App Preview" />
+          </div>
+          <div class="panel-content">
+            <h2>Download Our App</h2>
+            <p>Get App Exclusive Discounts & Offers</p>
+            <button class="outline-button">Show more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>About Us</h4>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Ingredients</a></li>
+            <li><a href="#">Sustainability</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Minimalist. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
